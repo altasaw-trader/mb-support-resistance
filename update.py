@@ -19,7 +19,7 @@ def fetch(pair, interval, period, duration):
     df=df.loc[(idx+duration)<=pd.Timestamp(NOW)]
     return df if len(df)>=12 else None
 
-def levels(df,price,point):
+def levels(df,price,point,pair):
     highs=df['High'].to_numpy();lows=df['Low'].to_numpy();n=len(df)
     left=3;right=3
     resistance=[];support=[]
@@ -51,7 +51,7 @@ def main():
         for tf,(interval,period,duration) in CONFIG.items():
             try:raw[tf]=fetch(pair,interval,period,duration)
             except Exception as exc:
-                raw[tf]=None;failures.append(f'{pair} {tf}: {type(exc).__name__}')
+                raw[tf]=None;failures.append(f'{pair} {tf}: {type(exc).__name__}: {str(exc)[:160]}')
             time.sleep(.15)
         # H4 synthesized from H1, aligned to UTC 00/04/08/12/16/20.
         if raw.get('H1') is not None:
@@ -62,11 +62,11 @@ def main():
         for tf in ['M30','H1','H4','D1']:
             df=raw.get(tf)
             if df is not None and len(df)>=12:
-                try:entry[tf]={'status':'ok',**levels(df,float(df['Close'].iloc[-1]),point)}
-                except Exception as exc:failures.append(f'{pair} {tf}: {type(exc).__name__}')
+                try:entry[tf]={'status':'ok',**levels(df,float(df['Close'].iloc[-1]),point,pair)}
+                except Exception as exc:failures.append(f'{pair} {tf}: {type(exc).__name__}: {str(exc)[:160]}')
             if tf not in entry:
                 previous=old.get(pair,{}).get(tf)
-                if previous and previous.get('R') is not None:
+                if previous and previous.get('status') in ('ok','stale') and previous.get('bars',0)>=12:
                     entry[tf]={**previous,'status':'stale'}
                 else:entry[tf]={'status':'unavailable','R':[],'S':[]}
         result[pair]=entry
