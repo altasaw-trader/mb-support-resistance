@@ -1,0 +1,681 @@
+{
+  "updated_utc": "2026-11-08T01:28:00+00:00",
+  "source": "Yahoo Finance (unofficial)",
+  "method": "3-left/3-right confirmed swing extrema, nearby levels clustered; H4 derived from H1 using UTC 4h bins",
+  "windows": {
+    "M30": "up to 59 days",
+    "H1": "up to 700 days",
+    "H4": "up to 700 days",
+    "D1": "3 years"
+  },
+  "pairs": {
+    "AUDCAD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "AUDCHF": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "AUDJPY": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "AUDNZD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "AUDUSD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "CADCHF": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "CADJPY": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "CHFJPY": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "EURAUD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "EURCAD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "EURCHF": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "EURGBP": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "EURJPY": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "EURNZD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "EURUSD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "GBPAUD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "GBPCAD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "GBPCHF": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "GBPJPY": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "GBPNZD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "GBPUSD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "NZDCAD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "NZDCHF": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "NZDJPY": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "NZDUSD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "USDCAD": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "USDCHF": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    },
+    "USDJPY": {
+      "M30": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "H4": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      },
+      "D1": {
+        "status": "unavailable",
+        "R": [],
+        "S": []
+      }
+    }
+  },
+  "warnings": [
+    "AUDCAD M30: NameError",
+    "AUDCAD H1: NameError",
+    "AUDCAD H4: NameError",
+    "AUDCAD D1: NameError",
+    "AUDCHF M30: NameError",
+    "AUDCHF H1: NameError",
+    "AUDCHF H4: NameError",
+    "AUDCHF D1: NameError",
+    "AUDJPY M30: NameError",
+    "AUDJPY H1: NameError",
+    "AUDJPY H4: NameError",
+    "AUDJPY D1: NameError",
+    "AUDNZD M30: NameError",
+    "AUDNZD H1: NameError",
+    "AUDNZD H4: NameError",
+    "AUDNZD D1: NameError",
+    "AUDUSD M30: NameError",
+    "AUDUSD H1: NameError",
+    "AUDUSD H4: NameError",
+    "AUDUSD D1: NameError",
+    "CADCHF M30: NameError",
+    "CADCHF H1: NameError",
+    "CADCHF H4: NameError",
+    "CADCHF D1: NameError",
+    "CADJPY M30: NameError",
+    "CADJPY H1: NameError",
+    "CADJPY H4: NameError",
+    "CADJPY D1: NameError",
+    "CHFJPY M30: NameError",
+    "CHFJPY H1: NameError",
+    "CHFJPY H4: NameError",
+    "CHFJPY D1: NameError",
+    "EURAUD M30: NameError",
+    "EURAUD H1: NameError",
+    "EURAUD H4: NameError",
+    "EURAUD D1: NameError",
+    "EURCAD M30: NameError",
+    "EURCAD H1: NameError",
+    "EURCAD H4: NameError",
+    "EURCAD D1: NameError",
+    "EURCHF M30: NameError",
+    "EURCHF H1: NameError",
+    "EURCHF H4: NameError",
+    "EURCHF D1: NameError",
+    "EURGBP M30: NameError",
+    "EURGBP H1: NameError",
+    "EURGBP H4: NameError",
+    "EURGBP D1: NameError",
+    "EURJPY M30: NameError",
+    "EURJPY H1: NameError"
+  ]
+}
